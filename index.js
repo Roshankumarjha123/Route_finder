@@ -18,14 +18,14 @@ let transporter = nodemailer.createTransport({
   secure: false, // true for 465, false for other ports
   requireTLS: true,
   auth: {
-    user: "monudixit0007@gmail.com", // generated ethereal user
+    user: "iroshanjha01@gmail.com", // generated ethereal user
     pass: "ytuguwtzogfhmbzd", // generated ethereal password
   },
 });
 async function mail(email, link,title) {
   
     let mailinfo = await transporter.sendMail({
-      from: "monudixit0007@gmail.com", // sender address
+      from: "iroshanjha01@gmail.com", // sender address
       to: email, // list of receivers
       subject: title, // Subject line
       text: "LawBrush", // plain text body
